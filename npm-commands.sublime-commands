@@ -1,0 +1,44 @@
+[
+  {
+    "caption": "npm: init",
+    "command": "shell_execute_c24f5128ec3046d8ad5b7f804d23bf26",
+    "args": {"command": "npm init --yes"}
+  },
+  {
+    "caption": "npm: install",
+    "command": "shell_execute_c24f5128ec3046d8ad5b7f804d23bf26",
+    "args": {"command": "npm"}
+  },
+  {
+  	"caption": "npm: install package",
+    "command": "shell_execute_c24f5128ec3046d8ad5b7f804d23bf26",
+    "args": {
+    	"command": "npm install $package",
+    	"package": "npm package name",
+    }
+  },
+  {
+  	"caption": "npm: install package and save",
+    "command": "shell_execute_c24f5128ec3046d8ad5b7f804d23bf26",
+    "args": {
+    	"command": "npm install --save $package",
+    	"package": "npm package name",
+    }
+  },
+  {
+  	"caption": "npm: install package and save dev",
+    "command": "shell_execute_c24f5128ec3046d8ad5b7f804d23bf26",
+    "args": {
+    	"command": "npm install --save-dev $package",
+    	"package": "npm package name",
+    }
+  },
+  {
+  	"caption": "npm: remove package and save",
+    "command": "shell_execute_c24f5128ec3046d8ad5b7f804d23bf26",
+    "args": {
+    	"command": "npm uninstall --save --save-dev --save-opt $package",
+    	"package": "package name",
+    }
+  }
+]
