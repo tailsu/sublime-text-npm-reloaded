@@ -7,7 +7,7 @@
   {
     "caption": "npm: install",
     "command": "shell_execute_c24f5128ec3046d8ad5b7f804d23bf26",
-    "args": {"command": "npm"}
+    "args": {"command": "npm install"}
   },
   {
   	"caption": "npm: install package",
